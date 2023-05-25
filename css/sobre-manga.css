@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    margin: 20px;
+
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.left-div {
+    flex: 1;
+    max-width: 30%;
+}
+.left-div img {
+    width: 100%;
+    height: 500px;
+}
+
+.right-div {
+    flex: 1;
+}
+
+.right-div p {
+    margin: 0;
+    padding: 10px;
+    font-size: 30px;
+}
+
+main h1{
+    font-size: 60px;
+    text-align: center;
+}

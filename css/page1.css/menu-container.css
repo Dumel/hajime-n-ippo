@@ -1,0 +1,46 @@
+.menu_container{
+    width: 98vw;
+    display: flex;
+}
+
+.menu_container img{
+   width: 250px;
+   height: 150px;
+   padding-left: 23px;
+   padding-top: 7px;
+}
+
+.menu_container .nav {
+    height: 60px;    
+    display: flex;
+    justify-content: flex-end;
+}
+.menu_container .nav a{
+    display: flex;
+    color: #ffff;
+    font-size: 2.2rem; 
+    margin-top: 20px
+}
+.menu_container .nav a:hover{
+    content: "";
+    color: #000;
+}
+
+.nav{
+    width: 82vw;
+    gap: 35px; 
+}
+
+
+.menu_line{
+    display: none;
+}
+
+#line{
+    width:5px;
+    height: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    display: none;
+}
